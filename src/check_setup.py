@@ -8,7 +8,7 @@ def main():
     response.raise_for_status()
     print(f"API call worked: {response.text}")
 
-    print("Setup looks good.")
+    print("Setup looks good. We did it!")
 
 if __name__ == "__main__":
     main()
